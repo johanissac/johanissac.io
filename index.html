@@ -1,0 +1,103 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<!DOCTYPE html>
+<head>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="animate.css">
+  <script> $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+  <title>Page</title>
+</head>
+<body >
+  <div class="nav" id="nav" >
+    <ul>
+      <li><a href="#about"  >About</a> </li>
+      <li><a href="#skills" >Skills</a> </li>
+      <li><a href="#Contact" >Contact</a> </li>
+    </ul>
+  </div>
+  <div class="intro">
+    <div class="animated fadeIn">
+      Hello ,
+      <br>
+        I'm Johan Issac.
+    </div>
+
+  </div>
+  <div class="arrowBox">
+    <a href="#about" ></a>
+  </div>
+
+
+  <div class="bkimg">
+    <div id="about">
+      <h1 class="about">
+        WHO AM I ?
+      </h1>
+      <div  class="dp">
+
+      </div>
+      <div id="content" >
+          OH, Hey there! This is actually just my first adventure in the field of web development.
+           I am new at this and I see this as my first step towards something bigger and something much more relevent. I'll be looking forward to hear from you, your feedbacks. Feel free to contact me across any of my social media accounts.
+
+      </div>
+
+  </div>
+  </div>
+
+  <div id="skills" class="skills">
+    <h5 class="about" style="padding-top:50px" >
+    THINGS I KNOW
+    </h5>
+    <div class="content2">
+      <img ng-src = "python.png" alt="" class="python" >
+      <img ng-src = "c++.png" alt="" class="c" >
+      <img ng-src = "html.png" alt="" class="html" >
+      <img ng-src = "css.png" alt="" class="css" >
+      <img ng-src = "angular.png" alt="" class="angular" >
+    </div>
+  </div>
+  <div  id="Contact" class="contactdiv" >
+    <h5 class="about"> CATCH ME HERE</h5>
+    <div class="contact" >
+    <a class="email" href="mailto:johanissac@gmail.com"></a>
+    <a class="instagram" href="https://www.instagram.com/johanissac/"></a>
+    <a class="linkedin" href="https://in.linkedin.com/in/johan-issac-b8a316150"></a>
+    <a class="facebook" href="https://www.facebook.com/johanissac"></a>
+  </div>
+
+  </div>
+  <footer class="foot">2018</footer>
+
+
+</body>

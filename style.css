@@ -1,0 +1,577 @@
+:root{
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+body{
+
+  margin: 0;
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+
+
+
+}
+.intro{
+  background-image: url(img.jpg);
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+
+
+}
+.intro div{
+  color: white;
+  padding-top: 250px;
+  padding-left: 100px;
+  font-size: 40px;
+
+
+
+}
+
+.arrowBox{
+  margin-top: 10px;
+}
+.arrowBox a{
+
+
+  padding: 10px 50% 10px 50%;
+
+
+  background-image: url(arrow.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+}
+.about{
+  font-size: 70px;
+  text-align: center;
+  padding-top: 150px;
+  font-weight: normal;
+
+}
+
+.bkimg{
+  background-image: url(img1.jpg);
+  height: 1200px;
+  width: 100%;
+  background-size: cover;
+
+  font-size: 20px;
+
+
+
+
+}
+#content{
+  padding-top: 250px;
+  padding-right: 55%;
+  padding-left: 5%;
+  font-size: 20px;
+}
+
+.nav{
+  background-color: white;
+  top: 0;
+
+  width: 100%;
+  height: 40px;
+
+  border-style: solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: 3px;
+  opacity: 70%;
+  position: sticky;
+  border-color: #a1a1a1 ;
+  z-index: 1;
+
+
+
+
+
+}
+.nav li{
+  list-style: none;
+  margin-left: 65%;
+  font-size: 20px;
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+  float: left;
+  padding: 5px 20px 0 20px;
+
+}
+.nav a:hover{
+  color: #e91827;
+}
+.skills{
+  font-size: 70px;
+  text-align: center;
+  margin-top: 100px;
+  height: 500px;
+
+
+
+  -webkit-animation-fill-mode: backwards;
+
+}
+
+.dp{
+  border-radius: 10px;
+  height: 440px;
+  width: 300px;
+  background-image: url(dp.jpg);
+  float: right;
+  margin-right: 250px;
+  margin-top: 250px;
+
+
+
+
+
+
+
+
+}
+
+.content2{
+  margin-top: 200px;
+}
+.python{
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  height: 150px;
+  width: 150px;
+  background-image: url(python.svg);
+  background-size: contain;
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+
+}
+.c{
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  height: 150px;
+  width: 150px;
+  background-image: url(c++.svg);
+  background-size: contain;
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+
+}
+.html{
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  height: 150px;
+  width: 150px;
+  background-image: url(html.svg);
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  background-size: contain;
+
+
+}
+.css{
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  height: 150px;
+  width: 150px;
+  background-image: url(css.svg);
+  background-size: contain;
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+
+}
+.angular{
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  height: 150px;
+  width: 150px;
+  background-image: url(angular.png);
+  background-size: contain;
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+
+}
+.contact{
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+
+
+
+}
+.contactdiv{
+  margin-top: 200px;
+}
+.contact a{
+
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.email{
+  background-image: url(email.png);
+  padding: 50px;
+  height: 0;
+  width: 0;
+  background-size: contain;
+
+
+}
+.instagram{
+  background-image: url(instagram.png);
+  height: 0;
+  width: 0;
+  background-size: contain;
+  padding: 50px 35px 50px 50px;
+}
+.facebook{
+  background-image: url(facebook.png);
+  background-size: contain;
+  height: 0;
+  width: 0;
+  padding: 50px 35px 50px 50px;
+}
+.linkedin{
+  background-image: url(linkedin.png);
+  height: 0;
+  width: 0;
+  background-size: contain;
+  padding: 50px 35px 50px 50px;
+
+}
+
+
+.email:hover{
+  background-image: url(emailhover.png);
+
+
+
+}
+.instagram:hover{
+  background-image: url(instagramhover.png);
+
+}
+.facebook:hover{
+  background-image: url(facebookhover.png);
+
+}
+.linkedin:hover{
+  background-image: url(linkedinhover.png);
+
+
+}
+.foot{
+  background-color: #ccc;
+  padding-top: 90px;
+  font-size: 15px;
+  text-align: center;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1150px){
+  .nav li{
+
+    margin-left: 57%;
+    margin-right: 3%;
+    font-size: 20px;
+
+  }
+  .intro div{
+
+    margin-left: -10px;
+  }
+  .dp{
+
+  margin-right: 150px;
+  margin-top: 100px;
+  }
+  #content{
+    padding-top: 200px;
+
+  }
+  .content2{
+    margin-top: 100px;
+  }
+  .contact{
+    margin-top: 100px;
+  }
+}
+
+
+
+
+@media screen and (max-width:1024px){
+  .dp{
+
+    background-image: url(dp2.jpg);
+    height: 293px;
+    width: 200px;
+
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    float: none;
+  }
+  .bkimg{
+    background-image: url(img3.jpg);
+    width: 100%;
+    height: 1100px;
+    background-position: center;
+
+
+
+  }
+  #content{
+    font-size: 20px;
+    float: none;
+    padding: 0;
+    margin: 190px  100px 30px 100px;
+    text-align: center;
+
+
+  }
+  .intro{
+    width: 100%;
+    height: 600px;
+    background-image: url(img2.jpg);
+    background-position: left;
+    background-size: cover;
+
+
+  }
+  .intro div{
+    padding-top: 250px;
+    margin-left: 40%;
+  }
+  .about{
+    font-size: 50px;
+  }
+
+}
+@media screen and (max-width:800px){
+
+  #content{
+  margin-top: 170px;
+
+
+  }
+  .nav li{
+
+    margin-left: 45%;
+    margin-right: 3%;
+    font-size: 20px;
+
+  }
+  .intro div{
+
+    margin-left: 40%;
+    font-size: 40px;
+  }
+  .contact{
+    grid-template-columns: 100px 100px 100px 100px;
+  }
+  .email{
+    padding:50px 55px 20px 15px;
+  }
+  .linkedin,.facebook,.instagram{
+    padding:50px 50px 20px 10px;
+  }
+
+
+
+}
+
+@media screen and (max-width:630px){
+  .nav li{
+
+    margin-left: 36%;
+    margin-right: 3%;
+    font-size: 18px;
+
+  }
+  .intro div{
+
+    margin-left: 25%;
+
+  }
+
+  .bkimg{
+    height: 1100px;
+  }
+  .contactdiv h5{
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width:514px) {
+  .nav li{
+
+    margin-left: 41%;
+    margin-right: 3%;
+    font-size: 15px;
+
+  }
+  .nav a{
+    padding: 5px 10px 0 10px;
+  }
+  .nav{
+
+    width: 100%;
+    height: 30px;
+
+  }
+
+
+  .intro{
+    width: 100%;
+    height: 600px;
+    background-image: url(img2.jpg);
+    background-position: left;
+    background-size: cover;
+
+
+  }
+  .intro div{
+    padding-top: 250px;
+    margin-left: 20%;
+    margin-right: 30px;
+    font-size: 30px;
+  }
+
+  .about{
+    font-size: 50px;
+
+    text-align: center;
+  }
+
+  .bkimg{
+    background-image: url(img3.jpg);
+    width: 100%;
+    height: 1100px;
+    background-position: center;
+
+
+
+  }
+  #content{
+    font-size: 20px;
+    float: none;
+    padding: 0;
+    margin: 150px  50px 30px 50px;
+    text-align: center;
+
+
+  }
+  .dp{
+
+    background-image: url(dp2.jpg);
+    height: 293px;
+    width: 200px;
+
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    float: none;
+  }
+  .c,.python,.c,.css,.html,.angular {
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  .contactdiv h5{
+    margin-top: 0px;
+  }
+  .contact{
+    grid-template-columns: 70px 70px 70px 70px;
+  }
+  .email{
+    padding:35px 40px 20px 15px;
+  }
+  .linkedin,.facebook,.instagram{
+    padding:35px 37px 20px 10px;
+  }
+}
+@media screen and (max-width:400px){
+  .nav li{
+
+    margin-left: 35%;
+    margin-right: 3%;
+    font-size: 13px;
+
+  }
+  .intro div{
+
+    font-size: 25px;
+    margin-right: 2%;
+  }
+  #content{
+    font-size: 17px;
+
+
+  }
+  .about{
+    font-size: 40px;
+  }
+  .contactdiv h5{
+    margin-top: 50px;
+  }
+
+
+
+
+}
